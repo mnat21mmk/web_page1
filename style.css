@@ -1,0 +1,19 @@
+.block{
+    border: 20px;
+    padding: 20px;
+    margin: 160px;
+    margin-top: 160px;
+    margin-right: 190px;
+    margin-left: 190px;
+    border-radius: 40px;
+}
+p { background-color:#ffffff;
+	border: 1px solid #B4B7B7;
+	border-radius: 25px;
+    margin: 20px;    
+    padding: 35px;
+    text-align: left;
+    font-size:30px;
+    text-transform: uppercase;
+
+}
