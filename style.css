@@ -1,24 +1,29 @@
 .header{ 
     width: 1200px;
-    height: 880px;
+    /* height: 880px;*/
+    min-height: auto;
     border: 1px solid #B4B7B7;
     border-radius: 25px;
     background-color: white; 
     margin-left: 190px;
-
-}
+    position: relative;
+    display: inline-block;
+    }
 .sidebar{
-    margin-top: 110px;
-    margin-left: 85px;
+    padding: 5%;
+    width: calc(100% - 430px - 12%);
+    float: left;
+    margin:10px;
+    margin-right: 0px;
+    height: auto;
+    }
+
+.content{
     width: 430px;
     height: 870px;
-    float: left;
-    }
-.content{
-    width: 770px;
-    height: 870px;
-    margin-left: 430px;
     float:right;
+    background-image: url("daily_ui_day1_2.png");
+    border-radius: 0px 25px 25px 0px;
     }
 p { background-color:#ffffff;
 	border: 1px solid #B4B7B7;
